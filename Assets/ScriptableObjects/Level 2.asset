@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23379b48f4a64b04a9bba05db0779d1e, type: 3}
+  m_Name: Level 2
+  m_EditorClassIdentifier: 
+  brickIndices:
+  - rowIndex: 0
+    columnIndex: 14
+  - rowIndex: 1
+    columnIndex: 14
+  - rowIndex: 2
+    columnIndex: 14
+  - rowIndex: 3
+    columnIndex: 14
+  - rowIndex: 4
+    columnIndex: 14
+  - rowIndex: 5
+    columnIndex: 14
+  - rowIndex: 4
+    columnIndex: 13
+  - rowIndex: 4
+    columnIndex: 12
+  - rowIndex: 4
+    columnIndex: 11
+  - rowIndex: 4
+    columnIndex: 10
+  - rowIndex: 4
+    columnIndex: 9
+  - rowIndex: 4
+    columnIndex: 8
+  enemies:
+  - enemyProperties: {fileID: 11400000, guid: 05d9172a44c1e3642a003f86f7926fa4, type: 2}
+    wayPoints:
+    - rowIndex: 0
+      columnIndex: 4
+    - rowIndex: 0
+      columnIndex: 13
+  - enemyProperties: {fileID: 11400000, guid: 05d9172a44c1e3642a003f86f7926fa4, type: 2}
+    wayPoints:
+    - rowIndex: 6
+      columnIndex: 0
+    - rowIndex: 6
+      columnIndex: 5
+  powerUpIndices:
+  - rowIndex: 4
+    columnIndex: 13
+  - rowIndex: 1
+    columnIndex: 14
+  doorPosition:
+    rowIndex: 4
+    columnIndex: 9

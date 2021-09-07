@@ -1,0 +1,11 @@
+/Library
+/obj
+/Temp
+/.svn
+/.vs
+*.csproj
+/remote_config_data
+*.sln
+*.log
+/*.vsconfig
+/Logs
